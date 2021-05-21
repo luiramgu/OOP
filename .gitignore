@@ -21,7 +21,6 @@
 
 
 #Ignore lo de IDE
-
 .idea/*
 *.iml
 
