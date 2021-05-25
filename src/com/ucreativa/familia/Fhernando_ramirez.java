@@ -1,8 +1,8 @@
 package com.ucreativa.familia;
 
-public class fhernando_ramirez {
+public class Fhernando_ramirez {
 
-    public fhernando_ramirez (){
+    public Fhernando_ramirez (){
         System.out.println("Es Fhernando Ramirez");
     }
 }
