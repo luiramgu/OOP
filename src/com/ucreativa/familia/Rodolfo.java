@@ -13,14 +13,6 @@ public class Rodolfo {
         this.age = this.age++;
     }
 
-    public String getHobby() {
-        return hobby;
-    }
-
-    public void setHobby(String hobby) {
-        this.hobby = hobby;
-    }
-
     public Rodolfo(String saludo){
         System.out.println(saludo);
     }
