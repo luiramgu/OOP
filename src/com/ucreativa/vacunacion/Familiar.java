@@ -2,18 +2,18 @@ package com.ucreativa.vacunacion;
 
 public class Familiar extends Persona{
 
-    private String arentesco;
+    private String parentesco;
 
-    public Familiar(String nombre, String cedula, int edad, boolean riesgo, String arentesco) {
+    public Familiar(String nombre, String cedula, int edad, boolean riesgo, String parentesco) {
         super(nombre, cedula, edad, riesgo);
-        this.arentesco = arentesco;
+        this.parentesco = parentesco;
     }
 
     public String getArentesco() {
-        return arentesco;
+        return parentesco;
     }
 
     public void setArentesco(String arentesco) {
-        this.arentesco = arentesco;
+        this.parentesco = arentesco;
     }
 }
