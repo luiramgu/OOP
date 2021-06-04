@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class BitacoraVacunacion {
     private Persona persona;
-    private Date fecha;
+    private String fecha;
     private String marca;
 
-    public BitacoraVacunacion(Persona persona, Date fecha, String marca) {
+    public BitacoraVacunacion(Persona persona, String fecha, String marca) {
         this.persona = persona;
         this.fecha = fecha;
         this.marca = marca;
@@ -17,7 +17,7 @@ public class BitacoraVacunacion {
         return persona;
     }
 
-    public Date getFecha() {
+    public String getFecha() {
         return fecha;
     }
 

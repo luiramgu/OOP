@@ -6,6 +6,9 @@ public class Persona {
     private int edad;
     private boolean riesgo;
 
+    public Persona (){
+
+    }
     public Persona(String nombre, String cedula, int edad, boolean riesgo) {
         this.nombre = nombre;
         this.cedula = cedula;
