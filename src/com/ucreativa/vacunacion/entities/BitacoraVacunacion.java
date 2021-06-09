@@ -1,7 +1,5 @@
 package com.ucreativa.vacunacion.entities;
 
-import java.util.Date;
-
 public class BitacoraVacunacion {
     private Persona persona;
     private String fecha;
@@ -23,5 +21,10 @@ public class BitacoraVacunacion {
 
     public String getMarca() {
         return marca;
+    }
+
+    @Override
+    public String toString() {
+        return persona.getNombre() + " " + getFecha() + " " + getMarca();
     }
 }
