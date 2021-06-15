@@ -1,4 +1,4 @@
-package com.ucreativa.vacunacion.services.GUI;
+package com.ucreativa.vacunacion.UI;
 
 import com.ucreativa.vacunacion.entities.Amigo;
 import com.ucreativa.vacunacion.entities.BitacoraVacunacion;
