@@ -2,7 +2,7 @@ package com.ucreativa.vacunacion;
 
 
 import com.ucreativa.vacunacion.entities.BitacoraVacunacion;
-import com.ucreativa.vacunacion.repositories.GUI.PersonaDataCapture;
+import com.ucreativa.vacunacion.services.GUI.PersonaDataCapture;
 import com.ucreativa.vacunacion.repositories.inMemoryRepository;
 
 import java.util.ArrayList;

@@ -1,9 +1,10 @@
-package com.ucreativa.vacunacion.repositories.GUI;
+package com.ucreativa.vacunacion.services.GUI;
 
 import com.ucreativa.vacunacion.entities.Amigo;
 import com.ucreativa.vacunacion.entities.BitacoraVacunacion;
 import com.ucreativa.vacunacion.entities.Familiar;
 import com.ucreativa.vacunacion.entities.Persona;
+import com.ucreativa.vacunacion.repositories.FileRepository;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -111,6 +112,8 @@ public class PersonaDataCapture extends JFrame {
                         PersonaDataCapture.super.dispose();
                         for (BitacoraVacunacion i : list){
                             System.out.println(i.toString());
+                            FileRepository file = new FileRepository();
+                            file.save(i.getPersona(),i.getMarca(),i.getFecha());
                         }
                     }
                 }
