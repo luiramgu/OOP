@@ -1,6 +1,6 @@
-package com.ucreativa.familia;
+package src.com.ucreativa.familia;
 
-public class Fhernando extends Rodolfo {
+public class Fhernando extends com.ucreativa.familia.Rodolfo {
 
 
     public Fhernando(int age, String hobby, String lastname){

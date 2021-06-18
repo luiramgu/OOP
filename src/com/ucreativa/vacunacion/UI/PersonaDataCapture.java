@@ -1,4 +1,4 @@
-package com.ucreativa.vacunacion.UI;
+package src.com.ucreativa.vacunacion.UI;
 
 import com.ucreativa.vacunacion.entities.Amigo;
 import com.ucreativa.vacunacion.entities.BitacoraVacunacion;
@@ -67,23 +67,31 @@ public class PersonaDataCapture extends JFrame {
                     int edad=0,mes=0,dia=0, ano = 0;
 
                     try {
+
                         sEdad.commitEdit();
-                    } catch (ParseException parseException) {
+                    } catch (ParseException parseException)
+                    {
                         edad = (Integer) sEdad.getValue();
                     }
                     try {
+
                         sMes.commitEdit();
                     } catch (ParseException parseException) {
+
                         mes = (Integer) sMes.getValue();
                     }
                     try {
+
                         sDia.commitEdit();
                     } catch (ParseException parseException) {
+
                         dia = (Integer) sDia.getValue();
                     }
                     try {
+
                         sAno.commitEdit();
                     } catch (ParseException parseException) {
+
                         ano = (Integer) sAno.getValue();
                     }
                     String fecha =  dia + "/" + mes + "/" + ano;

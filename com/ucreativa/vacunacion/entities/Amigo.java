@@ -1,7 +1,7 @@
 package com.ucreativa.vacunacion.entities;
 
 
-public class Amigo extends  Persona{
+public class Amigo extends com.ucreativa.vacunacion.entities.Persona {
   private String relacion;
   private String facebook;
 
